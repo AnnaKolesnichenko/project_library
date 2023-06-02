@@ -2,14 +2,16 @@ const gallery = document.querySelector('.movies-galery');
 const selectGenre = document.querySelector('.genres');
 const searchMore = document.querySelector('.search-more');
 const loadMore = document.querySelector('.load');
+const emptyGallery = document.querySelector('.empty-gallery');
 
 
 
 const movies = [];
 const STORAGE = 'movies-from-storage';
 
-searchMore.classList.add('.hide');
-loadMore.classList.add('.hide');
+loadMore.classList.add('hide');
+// selectGenre.classList.add('hide');
+// emptyGallery.classList.add('show');
 
 
 const getStoredMovies = (e) => {
@@ -32,8 +34,8 @@ const getStoredMovies = (e) => {
 
         const galleryItems = movieMarkUp(chosenMovies);
         gallery.insertAdjacentHTML('beforeend', galleryItems);
-        loadMore.classList.add('.show');
-        loadMore.classList.remove('.hide');
+        loadMore.classList.add('show');
+        loadMore.classList.remove('hide');
     }
     console.log('something');
     emptyLibrary();
@@ -55,16 +57,10 @@ const movieMarkUp = (dataComing) => {
 }).join('');
 }
 
-const emptyLibrary = () => {
-    searchMore.classList.add('.show');
-    searchMore.classList.remove('.hide');
-    return (
-        `
-        <div class="notify">
-            <p class="notify-message">Ooops... We are very sorry! You don't have any movies at your library.
-            </p>
-        </div>
-        `
-    ).join('');
-}
+// const emptyLibrary = () => {
+//     searchMore.classList.add('show');
+//     searchMore.classList.remove('hide');
+//     selectGenre.classList.add('show');
+    
+// }
 
