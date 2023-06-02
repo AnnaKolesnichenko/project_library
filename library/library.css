@@ -18,7 +18,7 @@ body {
 
 .back {
     padding-top: 40px;
-    padding-bottom: 144px;
+    
     height: 380px;
     background: linear-gradient(79.49deg, #111111 34.1%, rgba(17, 17, 17, 0) 64.67%), url('./images/seats.jpg');
     background-repeat: no-repeat;
@@ -66,6 +66,7 @@ section {
 
 /*==========*/
 .genres {
+    width: 172px;
     background-color: #1C1C1C;
     border-color: white;
     border-radius: 8px 8px 0px 0px;
@@ -111,3 +112,35 @@ section {
     font-size: 12px;
     line-height: 14px;
 }
+
+.search-more {
+    display: none;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px 12px 24px;
+    width: 106px;
+    height: 38px;
+    background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+    border-radius: 74px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
