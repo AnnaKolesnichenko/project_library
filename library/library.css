@@ -137,9 +137,9 @@ section {
 .movie-year {}
 .movie-rating {}
 
-.empty-gallery {
+/* .empty-gallery {
     display: none;
-}
+} */
 
 
 .notify { 
@@ -294,8 +294,7 @@ section {
     margin: 0;
 }
 
-.notify-message{
-    
+.notify-message{    
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;

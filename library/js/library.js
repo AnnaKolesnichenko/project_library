@@ -11,7 +11,7 @@ const STORAGE = 'movies-from-storage';
 
 loadMore.classList.add('hide');
 // selectGenre.classList.add('hide');
-// emptyGallery.classList.add('show');
+emptyGallery.classList.add('hide');
 
 
 const getStoredMovies = (e) => {
