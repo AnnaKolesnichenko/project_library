@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.back {
+    padding-top: 40px;
+    padding-bottom: 144px;
+    height: 380px;
+    background: linear-gradient(79.49deg, #111111 34.1%, rgba(17, 17, 17, 0) 64.67%), url('./images/seats.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choices, 
+.gallery,
+.choose {
+    background-color: #1C1C1C;
+}
+
+section {
+    margin-top: 0;
+    padding: 0;
+}
+
+.library-title {
+    padding-top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 8px;
+    width: 235px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.library-description {
+    width: 249px;
+    margin: 0;
+    margin-right: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+
+/*==========*/
+.genres {
+    background-color: #1C1C1C;
+    border-color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.genres option {
+    background-color: #1C1C1C;
+    border-color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.load {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px 12px 24px;
+    width: 106px;
+    height: 38px;
+    background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+    border-radius: 74px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
