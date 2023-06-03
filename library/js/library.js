@@ -25,6 +25,7 @@ const chosenGenre = (e) => {
     console.log(chosen);
     
     chosen.classList.toggle('orange');
+    genresBtn.classList.remove('orange');
 
     genresBtn.textContent = chosen.textContent;
 
@@ -43,7 +44,7 @@ dropContent.addEventListener('click', chosenGenre);
 const movies = [];
 const STORAGE = 'movies-from-storage';
 
-loadMore.classList.add('hide');
+//loadMore.classList.add('hide');
 // selectGenre.classList.add('hide');
 //emptyGallery.classList.add('hide');
 
