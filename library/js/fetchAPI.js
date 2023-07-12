@@ -1,0 +1,2 @@
+const BASE_URL = '';
+const API_KEY = '14b16a10583a3d9315723a356100e4ad';
